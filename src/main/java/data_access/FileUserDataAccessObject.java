@@ -22,12 +22,31 @@ import use_case.signup.SignupUserDataAccessInterface;
 public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
                                                  LoginUserDataAccessInterface,
                                                  ChangePasswordUserDataAccessInterface {
-
     private static final String HEADER = "username,password";
 
     private final File csvFile;
     private final Map<String, Integer> headers = new LinkedHashMap<>();
     private final Map<String, User> accounts = new HashMap<>();
+
+    /**
+     * Sets the current logged-in user.
+     *
+     * @param name the name of the user to set as current
+     */
+    @Override
+    public void setCurrentUser(String name) {
+        // No implementation needed for now
+    }
+
+    /**
+     * Gets the current logged-in user's name.
+     *
+     * @return the name of the current logged-in user, or null if no user is logged in
+     */
+    @Override
+    public String getCurrentUser() {
+        return null;
+    }
 
     public FileUserDataAccessObject(String csvPath, UserFactory userFactory) throws IOException {
 
@@ -102,6 +121,7 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         // Replace the User object in the map
         accounts.put(user.getName(), user);
         save();
+
+
     }
 }
-

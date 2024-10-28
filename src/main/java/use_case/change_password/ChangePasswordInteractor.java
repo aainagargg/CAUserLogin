@@ -30,4 +30,3 @@ public class ChangePasswordInteractor implements ChangePasswordInputBoundary {
         userPresenter.prepareSuccessView(changePasswordOutputData);
     }
 }
-

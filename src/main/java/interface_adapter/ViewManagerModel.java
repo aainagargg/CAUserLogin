@@ -12,4 +12,3 @@ public class ViewManagerModel extends ViewModel<String> {
     }
 
 }
-

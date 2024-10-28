@@ -16,4 +16,3 @@ public interface ChangePasswordOutputBoundary {
      */
     void prepareFailView(String errorMessage);
 }
-

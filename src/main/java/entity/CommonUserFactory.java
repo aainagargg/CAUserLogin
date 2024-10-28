@@ -10,4 +10,3 @@ public class CommonUserFactory implements UserFactory {
         return new CommonUser(name, password);
     }
 }
-

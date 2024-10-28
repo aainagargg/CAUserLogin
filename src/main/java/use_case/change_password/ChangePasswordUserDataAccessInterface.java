@@ -13,4 +13,3 @@ public interface ChangePasswordUserDataAccessInterface {
      */
     void changePassword(User user);
 }
-

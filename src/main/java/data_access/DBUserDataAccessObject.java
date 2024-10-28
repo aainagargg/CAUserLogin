@@ -37,6 +37,16 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     @Override
+    public void setCurrentUser(String name) {
+        // No implementation needed for now
+    }
+
+    @Override
+    public String getCurrentUser() {
+        return null;
+    }
+
+    @Override
     public User get(String username) {
         // Make an API call to get the user object.
         final OkHttpClient client = new OkHttpClient().newBuilder().build();
@@ -152,4 +162,3 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
         }
     }
 }
-

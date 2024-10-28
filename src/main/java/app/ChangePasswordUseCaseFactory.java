@@ -29,7 +29,6 @@ public final class ChangePasswordUseCaseFactory {
      * @param userDataAccessObject the ChangePasswordUserDataAccessInterface to inject into the LoggedInView
      * @return the LoggedInView created for the provided input classes
      */
-
     public static LoggedInView create(
             ViewManagerModel viewManagerModel,
             LoggedInViewModel loggedInViewModel,

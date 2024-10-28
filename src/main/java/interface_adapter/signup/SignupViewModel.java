@@ -23,4 +23,3 @@ public class SignupViewModel extends ViewModel<SignupState> {
     }
 
 }
-
