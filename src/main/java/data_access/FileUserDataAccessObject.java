@@ -121,7 +121,5 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         // Replace the User object in the map
         accounts.put(user.getName(), user);
         save();
-
-
     }
 }
