@@ -28,3 +28,4 @@ public interface LoginUserDataAccessInterface {
     User get(String username);
 
 }
+

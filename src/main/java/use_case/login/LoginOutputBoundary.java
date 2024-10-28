@@ -16,3 +16,4 @@ public interface LoginOutputBoundary {
      */
     void prepareFailView(String errorMessage);
 }
+

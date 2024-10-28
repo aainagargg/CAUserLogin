@@ -13,3 +13,4 @@ public class LoginViewModel extends ViewModel<LoginState> {
     }
 
 }
+

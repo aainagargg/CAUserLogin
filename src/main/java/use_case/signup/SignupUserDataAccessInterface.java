@@ -20,3 +20,4 @@ public interface SignupUserDataAccessInterface {
      */
     void save(User user);
 }
+

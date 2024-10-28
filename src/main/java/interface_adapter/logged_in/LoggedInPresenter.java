@@ -30,3 +30,4 @@ public class LoggedInPresenter implements ChangePasswordOutputBoundary {
         // TODO update the viewmodel!
     }
 }
+

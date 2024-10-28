@@ -27,3 +27,4 @@ public class SignupInputData {
         return repeatPassword;
     }
 }
+

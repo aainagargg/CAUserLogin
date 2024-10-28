@@ -22,3 +22,4 @@ public class SignupOutputData {
         return useCaseFailed;
     }
 }
+

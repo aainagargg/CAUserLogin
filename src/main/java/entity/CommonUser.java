@@ -24,3 +24,4 @@ public class CommonUser implements User {
     }
 
 }
+

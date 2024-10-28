@@ -40,3 +40,4 @@ public class LoggedInState {
         return password;
     }
 }
+
